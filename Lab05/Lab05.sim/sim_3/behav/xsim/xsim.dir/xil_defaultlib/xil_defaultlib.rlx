@@ -3,7 +3,7 @@
 May 27 2020
 20:09:33
 H:/ELC2137/DL202002_aaronmendoza/Lab05/Lab05/Lab05.sim/sim_3/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
-H:/ELC2137/DL202002_aaronmendoza/Lab05/Lab05/codedirectory/addsub.sv,1600972173,systemVerilog,,H:/ELC2137/DL202002_aaronmendoza/Lab05/Lab05/codedirectory/fulladder.sv,,addsub,,,,,,,,
-H:/ELC2137/DL202002_aaronmendoza/Lab05/Lab05/codedirectory/addsub_test.sv,1600972656,systemVerilog,,,,addsub_test,,,,,,,,
+H:/ELC2137/DL202002_aaronmendoza/Lab05/Lab05/codedirectory/addsub.sv,1601230755,systemVerilog,,H:/ELC2137/DL202002_aaronmendoza/Lab05/Lab05/codedirectory/fulladder.sv,,addsub,,,,,,,,
+H:/ELC2137/DL202002_aaronmendoza/Lab05/Lab05/codedirectory/addsub_test.sv,1601230314,systemVerilog,,,,addsub_test,,,,,,,,
 H:/ELC2137/DL202002_aaronmendoza/Lab05/Lab05/codedirectory/fulladder.sv,1600969908,systemVerilog,,H:/ELC2137/DL202002_aaronmendoza/Lab05/Lab05/codedirectory/halfadder.sv,,fulladder,,,,,,,,
 H:/ELC2137/DL202002_aaronmendoza/Lab05/Lab05/codedirectory/halfadder.sv,1600969148,systemVerilog,,H:/ELC2137/DL202002_aaronmendoza/Lab05/Lab05/codedirectory/addsub_test.sv,,halfadder,,,,,,,,

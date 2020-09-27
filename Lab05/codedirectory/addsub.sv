@@ -28,27 +28,28 @@ module addsub(
     output [1:0]s
     );
     
-wire B0, B1, c1, c2;
+wire [1:0]B;
+wire [1:0]c;
 
-assign B0 = b[0] ^ m;
-assign B1 = b[1] ^ m; 
+assign B[0] = b[0] ^ m;
+assign B[1] = b[1] ^ m; 
     
 fulladder FA1(
     .a(a[0]),
-    .b(B0),
+    .b(B[0]),
     .cin(m),
-    .cout(c1),
-    .sout(s[1])
+    .cout(c[0]),
+    .sout(s[0])
     );
     
 fulladder FA2(
     .a(a[1]),
-    .b(B1),
-    .cin(c1),
-    .cout(c2),
-    .sout(s[2])
+    .b(B[1]),
+    .cin(c[0]),
+    .cout(c[1]),
+    .sout(s[1])
     );
 
-assign cout = c2 ^ m;
+assign cout = c[1] ^ m;
 
 endmodule
