@@ -146,15 +146,21 @@ I used behavorial coding when building my half adder, full adder, and 2 bit adde
 \end{figure}
 
 \begin{figure}[ht]\centering
-	\begin{tabular}{l|rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr}
-		Time (ns): & 0 & 10 & 20 & 30 & 40 & 50 & 60 & 70 & 80 & 90 & 100 & 110 & 120 & 130 & 140 & 150 & 160 & 170 & 180 & 190 & 200 & 210 & 220 & 230 & 240 & 250 & 260 & 270 & 280 & 290 & 300 & 310 \\
+	\begin{tabular}{lll|r}
+		M & A & B & Results \\
 		\midrule
-		a & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
-		b & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
-		m & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\
-		\midrule
-		cout & 0 & 0 & 0 & 1 & 0 & 1 & 1 & 1 \\
-		sout & 0 & 1 & 1 & 0 & 1 & 0 & 0 & 1 \\
+		0 & 00 & 01 & 001 \\
+		0 & 00 & 10 & 010 \\
+		0 & 00 & 11 & 011 \\ 
+		0 & 01 & 01 & 010 \\
+		0 & 10 & 01 & 011 \\
+		0 & 10 & 00 & 010 \\
+		1 & 00 & 01 & 111 \\
+		1 & 00 & 10 & 110 \\
+		1 & 00 & 11 & 101 \\
+		1 & 01 & 01 & 000 \\
+		1 & 10 & 01 & 001 \\
+		1 & 10 & 00 & 010 \\
 		\bottomrule
 	\end{tabular}\medskip
 	
